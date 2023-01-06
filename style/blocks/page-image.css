@@ -2,8 +2,32 @@
 	position: relative;
 }
 
+.page-image__img {
+	object-fit: cover;
+	min-width: 1600px;
+	min-height: 732px;
+}
+
 .page-image__restangle {
 	position: absolute;
 	opacity: 0.85;
 	top: 0;
+}
+
+.page-image__restangle_size {
+	object-fit: cover;
+	min-width: 1600px;
+	min-height: 732px;
+}
+
+@media (max-width:1024px) {
+	.page-image__img {
+		min-width: 1024px;
+		min-height: 528px;
+	}
+
+	.page-image__restangle_size {
+		min-width: 1024px;
+		min-height: 528px;
+	}
 }

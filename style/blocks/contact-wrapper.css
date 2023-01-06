@@ -2,5 +2,13 @@
 	position: absolute;
 	top: 1398px;
 	padding-left: 499px;
-	margin-bottom: 70px;
+	padding-bottom: 70px;
+}
+
+@media (max-width:1024px) {
+	.contact-wrapper {
+		top: 1163px;
+		padding-left: 243px;
+		padding-bottom: 56px;
+	}
 }

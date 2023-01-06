@@ -77,3 +77,45 @@
 	color: rgba(74, 118, 168, 1);
 	text-decoration: underline;
 }
+
+@media (max-width:1024px) {
+	.contact-form {
+		min-width: 537px;
+	}
+
+	.contact-form__title {
+		font-size: 32px;
+		line-height: 38px;
+		margin-bottom: 16px;
+	}
+
+	.contact-form__text {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.contact-form__line:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	.contact-form__lines {
+		padding-left: 78px;
+	}
+
+	.contact-form__line_input {
+		min-width: 377px;
+		min-height: 39px;
+		border: 2px solid #FFFFFF;
+	}
+
+	.contact-form__action {
+		padding-left: 160px;
+		margin-bottom: 30px;
+	}
+
+	.contact-form__agreement-text {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+}

@@ -2,8 +2,32 @@
 	position: relative;
 }
 
+.contact-image__img {
+	object-fit: cover;
+	min-width: 1600px;
+	min-height: 621px;
+}
+
 .contact-image__restangle {
 	position: absolute;
 	opacity: 0.85;
 	top: 0;
+}
+
+.contact-image__restangle_size {
+	object-fit: cover;
+	min-width: 1600px;
+	min-height: 621px;
+}
+
+@media (max-width:1024px) {
+	.contact-image__img {
+		min-width: 1024px;
+		min-height: 558px;
+	}
+
+	.contact-image__restangle_size {
+		min-width: 1024px;
+		min-height: 558px;
+	}
 }

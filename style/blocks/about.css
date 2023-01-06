@@ -50,6 +50,10 @@
 	padding-left: 36.82px;
 }
 
+.about-card:not(:last-child) {
+	margin-right: 50px;
+}
+
 .about-card__number {
 	position: absolute;
 	top: 32px;
@@ -72,4 +76,48 @@
 
 .about-card__img {
 	margin-bottom: 16px;
+}
+
+@media (max-width:1024px) {
+	.about-titles {
+		margin-bottom: 33px;
+	}
+
+	.about-titles__title {
+		font-size: 32px;
+		line-height: 38px;
+		margin-bottom: 23px;
+	}
+
+	.about-titles__subtitle {
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.about-description {
+		padding-left: 102px;
+		padding-right: 102px;
+	}
+
+	.about-description__text {
+		font-size: 16px;
+		line-height: 23px;
+	}
+
+	.about-card {
+		max-width: 180px;
+	}
+
+	.about-card__img {
+		padding-left: 38px;
+	}
+
+	.about-card__text {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.about-card__img {
+		margin-bottom: 26px;
+	}
 }
