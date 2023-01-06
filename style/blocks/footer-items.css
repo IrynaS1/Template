@@ -1,0 +1,37 @@
+.footer-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-items__logo {
+	margin-right: 19px;
+}
+
+.footer-items__copyrights-text {
+	min-width: 127px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #FFFFFF;
+	margin-right: 270px;
+}
+
+.footer-items__copyrights-text:not(:last-child) {
+	padding-top: 18px;
+}
+
+.footer-items__copyrights-author {
+	min-width: 171px;
+	padding-top: 27px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 17px;
+	color: #FFFFFF;
+	margin-right: 270px;
+}
+
+.footer-items__contacts {
+	padding-top: 7px;
+}

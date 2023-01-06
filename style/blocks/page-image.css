@@ -1,0 +1,9 @@
+.page-image {
+	position: relative;
+}
+
+.page-image__restangle {
+	position: absolute;
+	opacity: 0.85;
+	top: 0;
+}

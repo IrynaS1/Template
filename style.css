@@ -1,0 +1,25 @@
+@import url("./global_styles.css");
+
+@import url("./style/blocks/page-image.css");
+
+@import url("./style/blocks/header-wrapper.css");
+
+@import url("./style/blocks/contacts.css");
+
+@import url("./style/blocks/intro-wrapper.css");
+
+@import url("./style/blocks/intro.css");
+
+@import url("./style/blocks/about-wrapper.css");
+
+@import url("./style/blocks/about.css");
+
+@import url("./style/blocks/contact-image.css");
+
+@import url("./style/blocks/contact-wrapper.css");
+
+@import url("./style/blocks/contact-form.css");
+
+@import url("./style/blocks/footer-wrapper.css");
+
+@import url("./style/blocks/footer-items.css");
