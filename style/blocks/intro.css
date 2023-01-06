@@ -1,5 +1,6 @@
 .intro {
 	position: absolute;
+	max-width: 960px;
 	top: 200px;
 }
 
@@ -46,4 +47,38 @@
 	line-height: 23px;
 	text-align: center;
 	color: #FFFFFF;
+}
+
+@media (max-width:1024px) {
+	.intro {
+		top: 130px;
+		max-width: 754px;
+	}
+
+	.intro__title {
+		max-width: 780px;
+		max-height: 96px;
+		font-size: 40px;
+		line-height: 47px;
+		margin-bottom: 27.57px;
+	}
+
+	.intro__description {
+		max-width: 754px;
+		max-height: 70px;
+		padding-left: 13px;
+		padding-right: 13px;
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 60.43px;
+	}
+
+	.intro__action {
+		padding-left: 288px;
+		padding-right: 290px;
+	}
+
+	.intro__action_btn {
+		padding: 11px 49px;
+	}
 }

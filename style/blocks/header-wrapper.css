@@ -5,10 +5,19 @@
 	padding-top: 40px;
 	padding-right: 200px;
 	padding-left: 200px;
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 }
 
 .header-items {
 	display: flex;
 	justify-content: space-between;
+}
+
+@media (max-width:1024px) {
+	.header-wrapper {
+		padding-top: 26px;
+		padding-right: 30px;
+		padding-left: 30px;
+		padding-bottom: 70px;
+	}
 }

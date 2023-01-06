@@ -11,6 +11,7 @@
 	font-size: 23.85px;
 	line-height: 28px;
 	text-align: center;
+	margin-bottom: 2.85px;
 }
 
 .contacts__link {
@@ -20,4 +21,23 @@
 	line-height: 19px;
 	text-align: center;
 	text-decoration-line: underline;
+}
+
+@media (max-width:1024px) {
+	.contacts {
+		min-width: 186px;
+		min-height: 26px;
+		padding-top: 6px;
+	}
+
+	.contacts__phone {
+		font-size: 21px;
+		line-height: 25px;
+		margin-bottom: 4px;
+	}
+
+	.contacts__link {
+		font-size: 13px;
+		line-height: 15px;
+	}
 }

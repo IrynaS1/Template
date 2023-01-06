@@ -14,7 +14,7 @@
 	font-size: 12px;
 	line-height: 17px;
 	color: #FFFFFF;
-	margin-right: 270px;
+	margin-right: 301px;
 }
 
 .footer-items__copyrights-text:not(:last-child) {
@@ -29,9 +29,29 @@
 	font-size: 12px;
 	line-height: 17px;
 	color: #FFFFFF;
-	margin-right: 270px;
+	margin-right: 304px;
 }
 
 .footer-items__contacts {
 	padding-top: 7px;
+}
+
+@media (max-width:1024px) {
+	.footer-items__logo {
+		margin-right: 21px;
+	}
+
+	.footer-items__copyrights-text {
+		margin-right: 194px;
+	}
+
+	.footer-items__copyrights-author {
+		min-width: 164px;
+		padding-top: 15px;
+		margin-right: 214px;
+	}
+
+	.footer-items__contacts {
+		padding-top: 6px;
+	}
 }

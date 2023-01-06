@@ -2,3 +2,10 @@
 	padding-left: 306px;
 	padding-right: 304px;
 }
+
+@media (max-width:1024px) {
+	.intro-wrapper {
+		padding-left: 122px;
+		padding-right: 122px;
+	}
+}
