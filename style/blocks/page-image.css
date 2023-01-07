@@ -24,11 +24,13 @@
 
 @media (max-width:1024px) {
 	.page-image {
+		background-image: url("../../images/stag1024.jpg");
 		min-width: 1024px;
 		min-height: 528px;
 	}
 
 	.page-image__restangle_size {
+		background-image: url("../../images/rectangle-img1024.svg");
 		min-width: 1024px;
 		min-height: 528px;
 	}
