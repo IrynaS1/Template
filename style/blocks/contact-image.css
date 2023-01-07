@@ -1,11 +1,11 @@
 .contact-image {
 	position: relative;
-}
-
-.contact-image__img {
-	object-fit: cover;
 	min-width: 1600px;
 	min-height: 621px;
+	background-image: url("../../images/original1600.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 .contact-image__restangle {
@@ -18,16 +18,37 @@
 	object-fit: cover;
 	min-width: 1600px;
 	min-height: 621px;
+	background-image: url("../../images/rectangle-img21600.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-@media (max-width:1024px) {
-	.contact-image__img {
+@media (max-width: 1024px) {
+	.contact-image {
 		min-width: 1024px;
 		min-height: 558px;
+		background-image: url("../../images/original1024.jpg");
 	}
 
 	.contact-image__restangle_size {
 		min-width: 1024px;
 		min-height: 558px;
+		background-image: url("../../images/rectangle-img2-1024.svg");
+
+	}
+}
+
+@media (max-width: 320px) {
+	.contact-image {
+		min-width: 320px;
+		min-height: 398px;
+		background-image: url("../../images/original320.jpg");
+	}
+
+	.contact-image__restangle_size {
+		min-width: 320px;
+		min-height: 398px;
+		background-image: url("../../images/rectangle-img2-320.svg");
+
 	}
 }

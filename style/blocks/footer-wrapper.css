@@ -8,3 +8,12 @@
 		padding: 37px 30px;
 	}
 }
+
+@media (max-width:320px) {
+	.footer-wrapper {
+		padding-top: 25px;
+		padding-right: 15.08px;
+		padding-bottom: 25px;
+		padding-left: 15px;
+	}
+}

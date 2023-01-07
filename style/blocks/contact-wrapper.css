@@ -1,14 +1,28 @@
 .contact-wrapper {
 	position: absolute;
-	top: 1398px;
+	top: 1320px;
+	width: 100%;
+	padding-top: 70px;
 	padding-left: 499px;
+	padding-right: 499px;
 	padding-bottom: 70px;
 }
 
 @media (max-width:1024px) {
 	.contact-wrapper {
-		top: 1163px;
+		top: 1085px;
 		padding-left: 243px;
+		padding-right: 244px;
 		padding-bottom: 56px;
+	}
+}
+
+@media (max-width:320px) {
+	.contact-wrapper {
+		top: 1615px;
+		padding-top: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 30px;
 	}
 }
