@@ -1,11 +1,10 @@
 .page-image {
 	position: relative;
-}
-
-.page-image__img {
-	object-fit: cover;
 	min-width: 1600px;
 	min-height: 732px;
+	background-image: url("../../images/stag1600.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .page-image__restangle {
@@ -15,13 +14,16 @@
 }
 
 .page-image__restangle_size {
-	object-fit: cover;
 	min-width: 1600px;
 	min-height: 732px;
+	background-image: url("../../images/rectangle-img1600.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 @media (max-width:1024px) {
-	.page-image__img {
+	.page-image {
 		min-width: 1024px;
 		min-height: 528px;
 	}
@@ -29,5 +31,19 @@
 	.page-image__restangle_size {
 		min-width: 1024px;
 		min-height: 528px;
+	}
+}
+
+@media (max-width:320px) {
+	.page-image {
+		min-width: 320px;
+		min-height: 441px;
+		background-image: url("../../images/stag320.jpg");
+	}
+
+	.page-image__restangle_size {
+		min-width: 320px;
+		min-height: 441px;
+		background-image: url("../../images/rectangle-img320.svg");
 	}
 }

@@ -28,6 +28,7 @@
 
 .contact-form__lines {
 	padding-left: 89px;
+	padding-right: 90px;
 	margin-bottom: 50px;
 }
 
@@ -47,6 +48,7 @@
 
 .contact-form__action {
 	padding-left: 192px;
+	padding-right: 192px;
 	margin-bottom: 50px;
 }
 
@@ -100,6 +102,7 @@
 
 	.contact-form__lines {
 		padding-left: 78px;
+		padding-right: 82px;
 	}
 
 	.contact-form__line_input {
@@ -110,6 +113,7 @@
 
 	.contact-form__action {
 		padding-left: 160px;
+		padding-right: 161px;
 		margin-bottom: 30px;
 	}
 
@@ -118,4 +122,59 @@
 		line-height: 20px;
 	}
 
+}
+
+@media (max-width: 320px) {
+	.contact-form {
+		min-width: 290px;
+	}
+
+	.contact-form__title {
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+
+	.contact-form__text {
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 35px;
+	}
+
+	.contact-form__line:not(:last-child) {
+		margin-bottom: 15px;
+	}
+
+	.contact-form__lines {
+		padding-left: 0;
+		padding-right: 0;
+		margin-bottom: 45px;
+	}
+
+	.contact-form__line_input {
+		min-width: 279px;
+		min-height: 28px;
+		border: 1px solid #FFFFFF;
+		padding-left: 16px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.contact-form__action {
+		padding-left: 57px;
+		padding-right: 59px;
+		margin-bottom: 30px;
+	}
+
+	.contact-form__action-btn {
+		padding: 10px 26px;
+		box-shadow: 0px 2.69725px 16.8578px rgba(21, 169, 203, 0.3);
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.contact-form__agreement-text {
+		font-size: 11px;
+		line-height: 13px;
+	}
 }

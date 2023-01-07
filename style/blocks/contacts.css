@@ -41,3 +41,21 @@
 		line-height: 15px;
 	}
 }
+
+@media (max-width:320px) {
+	.contacts {
+		min-width: 24px;
+		min-height: 24px;
+		background-image: url("../../images/contacts320.svg");
+		background-repeat: no-repeat;
+		padding-top: 3px;
+	}
+
+	.contacts__phone {
+		display: none;
+	}
+
+	.contacts__link {
+		display: none;
+	}
+}

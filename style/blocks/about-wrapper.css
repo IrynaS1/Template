@@ -7,3 +7,12 @@
 		padding: 70px 76px;
 	}
 }
+
+@media (max-width:320px) {
+	.about-wrapper {
+		padding-top: 30px;
+		padding-right: 15px;
+		padding-bottom: 60px;
+		padding-left: 15px;
+	}
+}
