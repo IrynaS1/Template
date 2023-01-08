@@ -22,6 +22,36 @@
 	}
 }
 
+@media (max-width:614.40px) {
+	.header-wrapper {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width:512px) {
+	.header-wrapper {
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width:384px) {
+	.header-wrapper {
+		padding-top: 15px;
+		padding-right: 15.08px;
+		padding-left: 15px;
+		margin-bottom: 65px;
+	}
+}
+
+@media (max-width:384px) {
+	.header-wrapper {
+		padding-top: 15px;
+		padding-right: 15.08px;
+		padding-left: 15px;
+		margin-bottom: 65px;
+	}
+}
+
 @media (max-width:320px) {
 	.header-wrapper {
 		padding-top: 15px;
