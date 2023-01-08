@@ -8,6 +8,46 @@
 	padding-bottom: 70px;
 }
 
+@media (max-width:3072px) {
+	.contact-wrapper {
+		top: 1270px;
+	}
+}
+
+@media (max-width:2304px) {
+	.contact-wrapper {
+		top: 1295px;
+	}
+}
+
+@media (max-width:1706.67px) {
+	.contact-wrapper {
+		top: 1320px;
+	}
+}
+
+@media (max-width:1536px) {
+	.contact-wrapper {
+		top: 1363px;
+		padding-left: 450px;
+		padding-right: 450px;
+	}
+}
+
+@media (max-width:1396.36px) {
+	.contact-wrapper {
+		padding-left: 390px;
+		padding-right: 390px;
+	}
+}
+
+@media (max-width:1228.80px) {
+	.contact-wrapper {
+		padding-left: 305px;
+		padding-right: 305px;
+	}
+}
+
 @media (max-width:1024px) {
 	.contact-wrapper {
 		top: 1085px;
@@ -17,12 +57,44 @@
 	}
 }
 
+@media (max-width:877.71px) {
+	.contact-wrapper {
+		top: 1125px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (max-width:768px) {
+	.contact-wrapper {
+		top: 1163px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.contact-wrapper {
+		top: 1400px;
+	}
+}
+
+@media (max-width:512px) {
+	.contact-wrapper {
+		top: 1430px;
+		padding: 60px 60px;
+	}
+}
+
+@media (max-width:384px) {
+	.contact-wrapper {
+		top: 1608px;
+		padding: 30px 15px;
+	}
+}
+
 @media (max-width:320px) {
 	.contact-wrapper {
 		top: 1615px;
-		padding-top: 30px;
-		padding-left: 15px;
-		padding-right: 15px;
-		padding-bottom: 30px;
+		padding: 30px 15px;
+
 	}
 }

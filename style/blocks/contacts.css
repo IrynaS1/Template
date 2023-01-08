@@ -42,13 +42,49 @@
 	}
 }
 
-@media (max-width:320px) {
+@media (max-width:512px) {
 	.contacts {
-		min-width: 24px;
-		min-height: 24px;
+		min-width: 30px;
+		min-height: 30px;
+		padding-top: 3px;
 		background-image: url("../../images/contacts320.svg");
 		background-repeat: no-repeat;
+	}
+
+	.contacts__phone {
+		display: none;
+	}
+
+	.contacts__link {
+		display: none;
+	}
+}
+
+@media (max-width:384px) {
+	.contacts {
+		min-width: 30px;
+		min-height: 30px;
 		padding-top: 3px;
+		background-image: url("../../images/contacts320.svg");
+		background-repeat: no-repeat;
+	}
+
+	.contacts__phone {
+		display: none;
+	}
+
+	.contacts__link {
+		display: none;
+	}
+}
+
+@media (max-width:320px) {
+	.contacts {
+		min-width: 30px;
+		min-height: 30px;
+		padding-top: 3px;
+		background-image: url("../../images/contacts320.svg");
+		background-repeat: no-repeat;
 	}
 
 	.contacts__phone {

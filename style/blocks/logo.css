@@ -5,6 +5,20 @@
 	}
 }
 
+@media (max-width:512px) {
+	.logo {
+		max-width: 30px;
+		max-height: 30px;
+	}
+}
+
+@media (max-width:384px) {
+	.logo {
+		max-width: 30px;
+		max-height: 30px;
+	}
+}
+
 @media (max-width:320px) {
 	.logo {
 		max-width: 30px;

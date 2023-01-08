@@ -2,9 +2,36 @@
 	padding: 70px 333px;
 }
 
+@media (max-width:1396.36px) {
+	.about-wrapper {
+		padding: 70px 250px;
+	}
+}
+
+@media (max-width:1228.80px) {
+	.about-wrapper {
+		padding: 70px 190px;
+	}
+}
+
 @media (max-width:1024px) {
 	.about-wrapper {
 		padding: 70px 76px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.about-wrapper {
+		padding: 50px 70px;
+	}
+}
+
+@media (max-width:384px) {
+	.about-wrapper {
+		padding-top: 30px;
+		padding-right: 15px;
+		padding-bottom: 60px;
+		padding-left: 15px;
 	}
 }
 
