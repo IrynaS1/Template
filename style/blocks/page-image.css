@@ -17,6 +17,7 @@
 
 @media (max-width:1024px) {
 	.page-image {
+		background-image: url("../../images/stag1024.jpg");
 		min-width: 1024px;
 		min-height: 528px;
 	}
@@ -31,6 +32,7 @@
 
 @media (max-width:320px) {
 	.page-image {
+		background-image: url("../../images/stag320.jpg");
 		min-width: 320px;
 		min-height: 441px;
 	}
