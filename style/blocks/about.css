@@ -1,5 +1,6 @@
 .about-titles {
 	margin-bottom: 35px;
+	position: relative;
 }
 
 .about-titles__title {
@@ -19,6 +20,24 @@
 	line-height: 26px;
 	text-align: center;
 	color: #383A4C;
+}
+
+.about-titles__subtitle:before {
+	content: url("../../images/dash1600.svg");
+	max-width: 43px;
+	max-height: 2px;
+	position: absolute;
+	top: 100px;
+	left: 330px;
+}
+
+.about-titles__subtitle:after {
+	content: url("../../images/dash1600.svg");
+	max-width: 43px;
+	max-height: 2px;
+	position: absolute;
+	top: 100px;
+	left: 480px;
 }
 
 .about-description {
@@ -85,9 +104,101 @@
 	color: #383A4C;
 }
 
+@media (max-width:6144px) {
+	.about-titles__subtitle:before {
+		top: 60px;
+		left: 2600px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 60px;
+		left: 2760px;
+	}
+}
+
+@media (max-width:4608px) {
+	.about-titles__subtitle:before {
+		left: 1850px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 2000px;
+	}
+}
+
+@media (max-width:3072px) {
+	.about-titles__subtitle:before {
+		left: 1090px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 1240px;
+	}
+}
+
+@media (max-width:2304px) {
+	.about-titles__subtitle:before {
+		left: 710px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 860px;
+	}
+}
+
+@media (max-width:2048px) {
+	.about-titles__subtitle:before {
+		left: 580px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 740px;
+	}
+}
+
+@media (max-width:1920px) {
+	.about-titles__subtitle:before {
+		left: 510px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 680px;
+	}
+}
+
+@media (max-width:1706.67px) {
+	.about-titles__subtitle:before {
+		left: 410px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 570px;
+	}
+}
+
+@media (max-width:1536px) {
+	.about-titles__subtitle:before {
+		top: 100px;
+		left: 330px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 100px;
+		left: 480px;
+	}
+}
+
 @media (max-width:1396.36px) {
 	.about-card {
 		max-width: 220px;
+	}
+
+	.about-titles__subtitle:before {
+		left: 340px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 500px;
 	}
 }
 
@@ -95,6 +206,14 @@
 	.about-description {
 		padding-left: 70px;
 		padding-right: 70px;
+	}
+
+	.about-titles__subtitle:before {
+		left: 320px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 470px;
 	}
 
 	.about-card__img {
@@ -120,6 +239,16 @@
 	.about-titles__subtitle {
 		font-size: 20px;
 		line-height: 23px;
+	}
+
+	.about-titles__subtitle:before {
+		top: 55px;
+		left: 340px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 55px;
+		left: 480px;
 	}
 
 	.about-description {
@@ -163,6 +292,16 @@
 	.about-card:not(:last-child) {
 		margin-right: 0px;
 	}
+
+	.about-titles__subtitle:before {
+		top: 92px;
+		left: 270px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 92px;
+		left: 400px;
+	}
 }
 
 @media (max-width:768px) {
@@ -170,26 +309,43 @@
 		max-width: 130px;
 	}
 
+	.about-titles__subtitle:before {
+		top: 93px;
+		left: 210px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 93px;
+		left: 350px;
+	}
+
 	.about-card:not(:last-child) {
 		margin-right: 20px;
 	}
 
 	.about-card__img {
-		padding-left: 20px;
+		padding-left: 15px;
 		margin-bottom: 16px;
 	}
 
 	.about-card__number {
 		top: 15px;
-		left: 60px;
+		left: 50px;
 	}
-
 }
 
 @media (max-width:614.40px) {
 	.about-description {
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+
+	.about-titles__subtitle:before {
+		left: 140px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 280px;
 	}
 
 	.about-cards {
@@ -251,6 +407,16 @@
 	.about-description {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.about-titles__subtitle:before {
+		top: 132px;
+		left: 90px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 132px;
+		left: 240px;
 	}
 
 	.about-cards {
@@ -324,6 +490,16 @@
 		line-height: 19px;
 	}
 
+	.about-titles__subtitle:before {
+		top: 57px;
+		left: 90px;
+	}
+
+	.about-titles__subtitle:after {
+		top: 57px;
+		left: 220px;
+	}
+
 	.about-description {
 		padding: 0;
 	}
@@ -345,7 +521,6 @@
 
 	.about-card {
 		max-width: 166px;
-
 	}
 
 	.about-card:not(:last-child) {
@@ -441,5 +616,14 @@
 		font-size: 18px;
 		line-height: 25px;
 	}
+}
 
+@media (max-width:307.20px) {
+	.about-titles__subtitle:before {
+		left: 60px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 190px;
+	}
 }
