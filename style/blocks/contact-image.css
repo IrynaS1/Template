@@ -15,7 +15,6 @@
 	background: rgba(47, 50, 75, 0.85);
 }
 
-
 @media (max-width: 1024px) {
 	.contact-image {
 		min-width: 1024px;
@@ -36,7 +35,6 @@
 		min-height: 398px;
 		background-image: url("../../images/original320.jpg");
 	}
-
 }
 
 @media (max-width: 320px) {
@@ -45,5 +43,4 @@
 		min-height: 398px;
 		background-image: url("../../images/original320.jpg");
 	}
-
 }
