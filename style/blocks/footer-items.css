@@ -257,11 +257,14 @@
 		margin-right: 19.07px;
 	}
 
+	.footer-items__copyrights {
+		max-width: 87.3px;
+		margin-right: 129.45px;
+	}
+
 	.footer-items__copyrights-text {
-		min-width: 87.3px;
 		font-size: 8px;
 		line-height: 11px;
-		margin-right: 129.45px;
 	}
 
 	.footer-items__copyrights-text:not(:last-child) {
@@ -303,6 +306,6 @@
 	}
 
 	.footer-items__copyrights {
-		max-width: 150px;
+		margin-right: 90px;
 	}
 }

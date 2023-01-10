@@ -240,16 +240,13 @@
 	}
 
 	.intro__action {
-		min-width: 160px;
-		padding-left: 65px;
-		padding-right: 65px;
+		padding-left: 57px;
+		padding-right: 59px;
 	}
 
 	.intro__action-btn {
-		padding-top: 9px;
-		padding-right: 28.28px;
-		padding-bottom: 9px;
-		padding-left: 29px;
+		min-width: 174px;
+		padding: 10px 26px;
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 19px;
@@ -258,7 +255,7 @@
 
 @media (max-width:307.20px) {
 	.intro__action {
-		padding-left: 75px;
-		padding-right: 75px;
+		padding-left: 55px;
+		padding-right: 55px;
 	}
 }
