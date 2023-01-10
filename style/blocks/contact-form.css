@@ -276,9 +276,8 @@
 	}
 
 	.contact-form__lines {
-		padding-left: 0;
+		padding-left: 15px;
 		padding-right: 0;
-		margin-bottom: 45px;
 	}
 
 	.contact-form__line-input {
