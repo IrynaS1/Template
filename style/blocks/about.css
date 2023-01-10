@@ -566,6 +566,22 @@
 		line-height: 19px;
 	}
 
+	.about-titles__subtitle:before {
+		content: url("../../images/dash320.svg");
+		max-width: 19.71px;
+		max-height: 1px;
+		top: 57px;
+		left: 75px;
+	}
+
+	.about-titles__subtitle:after {
+		content: url("../../images/dash320.svg");
+		max-width: 19.71px;
+		max-height: 1px;
+		top: 57px;
+		left: 190px;
+	}
+
 	.about-description {
 		max-width: 290px;
 		padding: 0;
@@ -620,7 +636,7 @@
 
 @media (max-width:307.20px) {
 	.about-titles__subtitle:before {
-		left: 60px;
+		left: 80px;
 	}
 
 	.about-titles__subtitle:after {
