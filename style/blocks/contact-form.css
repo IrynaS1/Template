@@ -82,7 +82,7 @@
 
 @media (max-width:6144px) {
 	.contact-form__lines {
-		width: 423px;
+		max-width: 423px;
 		height: 174px;
 		padding-left: 0;
 		padding-right: 0;
@@ -91,7 +91,7 @@
 	}
 
 	.contact-form__action {
-		width: 218px;
+		max-width: 218px;
 		height: 48px;
 		padding-left: 0;
 		padding-right: 0;
@@ -225,6 +225,7 @@
 
 	.contact-form__lines {
 		padding-left: 40px;
+		padding-right: 30px;
 	}
 
 	.contact-form__line-input {
@@ -281,7 +282,7 @@
 	}
 
 	.contact-form__line-input {
-		min-width: 279px;
+		min-width: 270px;
 		min-height: 28px;
 		border: 1px solid #FFFFFF;
 		padding-left: 16px;
