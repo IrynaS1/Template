@@ -60,20 +60,24 @@
 @media (max-width:877.71px) {
 	.contact-wrapper {
 		top: 1125px;
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 150px;
+		padding-right: 150px;
 	}
 }
 
 @media (max-width:768px) {
 	.contact-wrapper {
 		top: 1163px;
+		padding-left: 110px;
+		padding-right: 110px;
 	}
 }
 
 @media (max-width:614.40px) {
 	.contact-wrapper {
 		top: 1400px;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 
