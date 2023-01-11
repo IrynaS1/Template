@@ -301,11 +301,15 @@
 }
 
 @media (max-width:307.20px) {
+	.footer-items {
+		max-width: 290px;
+	}
+
 	.footer-items__logo {
 		margin-right: 5px;
 	}
 
 	.footer-items__copyrights {
-		margin-right: 90px;
+		margin-right: 80px;
 	}
 }
