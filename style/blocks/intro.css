@@ -19,8 +19,8 @@
 .intro__description {
 	max-width: 960px;
 	max-height: 89px;
-	padding-left: 15px;
-	padding-right: 15px;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
 	font-style: normal;
 	font-weight: 400;
 	font-size: 22px;

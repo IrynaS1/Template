@@ -17,7 +17,7 @@
 	font-style: normal;
 	font-weight: 500;
 	font-size: 22px;
-	line-height: 26px;
+	line-height: 27px;
 	text-align: center;
 	color: #383A4C;
 }
@@ -43,7 +43,7 @@
 .about-description {
 	padding-left: 104px;
 	padding-right: 106px;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 
 .about-description__text {
@@ -74,8 +74,8 @@
 
 .about-card__img {
 	position: relative;
-	padding-left: 34.82px;
-	margin-bottom: 16px;
+	padding-left: 36px;
+	margin-bottom: 11px;
 }
 
 .about-card__image {
@@ -86,7 +86,7 @@
 .about-card__number {
 	display: inline-block;
 	position: absolute;
-	top: 32px;
+	top: 34px;
 	left: 80px;
 	font-style: normal;
 	font-weight: 500;
@@ -112,7 +112,7 @@
 
 	.about-titles__subtitle:after {
 		top: 60px;
-		left: 2760px;
+		left: 2830px;
 	}
 }
 
@@ -168,11 +168,21 @@
 
 @media (max-width:1706.67px) {
 	.about-titles__subtitle:before {
-		left: 410px;
+		left: 380px;
 	}
 
 	.about-titles__subtitle:after {
-		left: 570px;
+		left: 600px;
+	}
+}
+
+@media (max-width:1600px) {
+	.about-titles__subtitle:before {
+		left: 370px;
+	}
+
+	.about-titles__subtitle:after {
+		left: 517px;
 	}
 }
 
