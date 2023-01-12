@@ -85,7 +85,7 @@
 @media (max-width:6144px) {
 	.contact-form__lines {
 		max-width: 423px;
-		height: 174px;
+		min-height: 174px;
 		padding-left: 0;
 		padding-right: 0;
 		margin: auto;
@@ -110,12 +110,18 @@
 	.contact-form__title {
 		font-size: 32px;
 		line-height: 38px;
+		padding-left: 50px;
+		padding-right: 50px;
 		margin-bottom: 16px;
 	}
 
 	.contact-form__text {
 		font-size: 20px;
 		line-height: 23px;
+	}
+
+	.contact-form__lines {
+		min-height: 157px;
 	}
 
 	.contact-form__line {
@@ -140,7 +146,6 @@
 		font-size: 17px;
 		line-height: 20px;
 	}
-
 }
 
 @media (max-width:877.71px) {
@@ -264,6 +269,8 @@
 	.contact-form__title {
 		font-size: 20px;
 		line-height: 23px;
+		padding-left: 0;
+		padding-right: 0;
 		margin-bottom: 10px;
 	}
 
@@ -278,8 +285,10 @@
 	}
 
 	.contact-form__lines {
+		min-height: 114px;
 		padding-left: 13px;
 		padding-right: 0;
+		margin-bottom: 45px;
 	}
 
 	.contact-form__line-input {
@@ -315,6 +324,15 @@
 @media (max-width:307.20px) {
 	.contact-form {
 		min-width: 250px;
+	}
+
+	.contact-form__title {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.contact-form__text {
+		font-size: 10px;
 	}
 
 	.contact-form__lines {
