@@ -102,6 +102,12 @@
 	}
 }
 
+@media (max-width:1600px) {
+	.contact-form__lines {
+		margin-bottom: 48px;
+	}
+}
+
 @media (max-width:1024px) {
 	.contact-form {
 		min-width: 537px;
